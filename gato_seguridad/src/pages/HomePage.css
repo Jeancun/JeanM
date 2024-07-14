@@ -1,0 +1,140 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #E1DDD8;
+  padding-bottom: 5rem;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #243763;
+}
+
+.App-logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 100px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #FF6E31;
+  font-size: 1.5rem;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons .icon {
+  color: white;
+  margin-left: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-icons .icon:hover {
+  color: #007bff;
+}
+
+.carousel-img {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 2rem;
+  margin: 2rem 0;
+}
+
+.company-info .text {
+  flex: 1;
+  padding: 1rem;
+  background-color: #e69573;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.company-info .text:first-child {
+  margin-left: 2rem;
+}
+
+.company-info .text-second {
+  margin-left: 2rem;
+}
+
+.company-info .image {
+  flex: 1;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+
+}
+
+.company-info .image-first {
+  margin-left: -1rem;
+}
+
+.company-info .image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #243763;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .social-icons {
+  margin-top: 0.5rem;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
