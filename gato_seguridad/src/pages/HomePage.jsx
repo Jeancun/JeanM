@@ -7,9 +7,6 @@ import cam2 from '../images/cam2.jpg';
 import cam3 from '../images/cam3.jpg';
 import cam4 from '../images/cam4.jpg';
 import cam5 from '../images/cam5.jpg';
-import art1 from '../images/art1.jpg';
-import art2 from '../images/art2.jpg';
-import art3 from '../images/art3.jpg';
 import { Carousel } from 'react-bootstrap';
 
 function HomePage() {
@@ -25,7 +22,7 @@ function HomePage() {
             />
             <Carousel.Caption>
               <h3>Sobre nosotros</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>Seguridad y Vigilancia</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -35,8 +32,8 @@ function HomePage() {
               alt="cam2"
             />
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Productos</h3>
+              <p>Cámaras de seguridad, alarmas, sistemas de monitoreo, etc.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -46,8 +43,8 @@ function HomePage() {
               alt="cam3"
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h3>Servicios</h3>
+              <p>Instalación, mantenimiento y asesoramiento.</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -55,8 +52,8 @@ function HomePage() {
 
       <div id="sobre-nosotros" className="company-info">
         <div className="text">
-          <h2>Sobre nosotros</h2>
-          <p>
+        <h1 className="text-4xl mb-4">Sobre nosotros</h1>
+        <p className="text-lg">
             Somos una empresa dedicada a la seguridad y vigilancia, ofreciendo soluciones innovadoras para proteger tu hogar y negocio. Nuestro equipo está compuesto por profesionales altamente capacitados y comprometidos con la excelencia en el servicio.
           </p>
         </div>
@@ -64,9 +61,9 @@ function HomePage() {
           <img src={cam4} alt="Sobre nosotros" className="responsive-image" />
         </div>
         <div className="text text-second">
-          <h2>Sobre nosotros</h2>
-          <p>
-            Somos una empresa dedicada a la seguridad y vigilancia, ofreciendo soluciones innovadoras para proteger tu hogar y negocio. Nuestro equipo está compuesto por profesionales altamente capacitados y comprometidos con la excelencia en el servicio.
+        <h1 className="text-4xl mb-4">Productos y servicios</h1>
+        <p className="text-lg">
+        Contamos con una gran variedad de productos dependiendo de tus necesidades y presupuesto. También ofrecemos servicios de instalación, mantenimiento y asesoramiento.
           </p>
         </div>
         <div className="image image-first">

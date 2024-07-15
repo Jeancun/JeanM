@@ -7,7 +7,7 @@ import './Products.css';
 function Products() {
   return (
     <div className="products-container">
-      <h2>Productos</h2>
+      <h1 className='text-4xl mb-4'>Productos</h1>
       <div className="products-grid">
         <div className="product-item">
           <img src={art1} alt="Producto 1" className="product-image" />
