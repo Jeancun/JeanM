@@ -22,10 +22,12 @@ Gato seguridad es una aplicación web para una empresa de seguridad. La aplicaci
   - Express.js
 
 - **Base de Datos:**
-  - Pendiente
+  - Mongodb
 
 - **Autenticación:**
   - JSON Web Tokens (JWT)
 
 - **Estilos:**
-  - SASS
+  - css
+ 
+SPRINTS: Los srpints del proyecto se manejaron en la sección "projects" del github, link: https://github.com/users/Jeancun/projects/5
