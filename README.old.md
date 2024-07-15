@@ -2,6 +2,8 @@
 
 Gato seguridad es una aplicación web para una empresa de seguridad. La aplicación permite a los usuarios ver información sobre la empresa, los productos y servicios que ofrece, registrarse, realizar compras en línea, y a los empleados gestionar el inventario.
 
+SPRINTS: Los srpints del proyecto se manejaron en la sección "projects" del github, link: https://github.com/users/Jeancun/projects/5
+
 ## Características
 
 - Visualización de información de la empresa.
@@ -30,4 +32,3 @@ Gato seguridad es una aplicación web para una empresa de seguridad. La aplicaci
 - **Estilos:**
   - css
  
-SPRINTS: Los srpints del proyecto se manejaron en la sección "projects" del github, link: https://github.com/users/Jeancun/projects/5
