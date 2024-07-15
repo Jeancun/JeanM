@@ -4,6 +4,10 @@ Gato seguridad es una aplicación web para una empresa de seguridad. La aplicaci
 
 SPRINTS: Los srpints del proyecto se manejaron en la sección "projects" del github, link: https://github.com/users/Jeancun/projects/5
 
+
+Ejecuta tanto el backend como el frontend de la aplicación en modo de desarrollo.
+Para ejecutar el frontend, primero navega a la carpeta `gato_seguridad`:
+
 ## Características
 
 - Visualización de información de la empresa.
