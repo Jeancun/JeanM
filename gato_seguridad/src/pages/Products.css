@@ -33,9 +33,9 @@ body {
   
   .product-image {
     width: 100%;
-    max-width: 200px; /* Ancho máximo para evitar estiramiento horizontal */
-    height: auto; /* Ajuste automático de la altura */
-    object-fit: cover; /* Mantiene la proporción de la imagen */
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
   }
   
   /* Media queries pantallas medianas */
